@@ -1,0 +1,144 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.-container {   
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    /* background-color: rgb(236, 238, 243); */
+}
+
+#magnifier button:hover {
+    cursor: pointer;
+    color:rgb(130, 130, 131);
+}
+
+.row1 {
+    border: 1px solid black;
+
+}
+
+.toolbar-icons {
+    background-color: dimgray;
+}
+
+
+
+.compose-button button {
+    max-width: 100%;
+    display: flex;   
+    flex-direction: column;
+    border: 0;
+    outline: none;
+}
+
+
+
+.col-mini-menu {
+    background-color:dimgray;
+    
+}
+
+.col-mini-menu button {
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    
+}
+
+.col-mini-menu button img {
+    width: 20px;
+    border-radius: 50%;   
+}
+
+.col-mini-menu button:hover {
+    cursor: pointer;
+    color:rgb(128, 132, 141);
+}
+
+.col-menu button {
+    display: flex;   
+    flex-direction: row;
+    margin: 20px;
+    border: 0;
+    outline: none;
+}
+
+.col-menu button:hover {
+    cursor: pointer;
+    color:rgb(149, 152, 157);
+}
+
+.col-menu {
+    background-color: rgb(255, 255, 255);
+}
+
+.text-edit {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.toolbar-icons button {
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+}
+
+.toolbar-icons button:hover {
+    cursor: pointer;
+    color:rgb(108, 111, 117);
+}
+
+
+.toolbar-icons button img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.email-names {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(105, 105, 105, 0.341);
+}
+
+#test1 {
+    height: 40px;
+
+}
+
+#search-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+
+}
+
+
+td a {
+    display: block;
+    text-decoration: none;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.printer button {
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+}
+
+.printer button:hover {
+    cursor: pointer;
+    color: rgb(120, 122, 128);
+}
